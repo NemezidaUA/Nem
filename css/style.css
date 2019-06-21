@@ -18,10 +18,6 @@
 		
 	}
 
-audio{
-	z-index: 40;
-}
-
 	Instagram{
     animation: header 1s 2.25s forwards;		
 	backface-visibility: hidden;		
