@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Nemezida</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">		
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>			
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<script src="https://kit.fontawesome.com/33edc189d1.js"></script>
+	</head>
+    
+	<body class="loading">	
+		<div id="wrapper">
+			<h6 class="Instagram">Instagram</h6>
+			<h6 class="Steam">Steam</h6>
+			<h6 class="VK">VK</h6>
+			<h6 class="Discord">NEMEZIDA UA#4778</h6>
+			<audio autoplay="autoplay" loop volume="0.03" id="myaudio" ><source src="audio/bgaudio1.mp3" type="audio/mp3"><source src="audio/bgaudio1.ogg" type="audio/ogg"></audio>
+			<video autoplay="1" loop="" id="player" muted="muted">
+				<source src="video/video3.mp4" type="video/mp4"><source src="video/video4.mp4" type="video/ogg"><source src="video/video3.webm" type="video/webm">
+             </video>     
+			<div id="overlay"></div>
+			<div id="main">				
+					<header id="header">					
+					<ul>					
+					<marquee aligt="center" scrollamount="50" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+					</ul>	
+					 Time:
+                      <span id="doc_time">Time</span>					
+						<h1>Nemezida</h1>
+						<nav>
+							<ul>	
+                                <li><a href="https://vk.com/id229061852"  target="_blank" class="fab fa-vk"></a></li>	
+                                <li><a href="https://steamcommunity.com/id/XDedPoolX"  target="_blank" class="fab fa-steam" aria-hidden="true"></a></li>
+                                <li><a href="https://www.instagram.com/nazarchugai/"  target="_blank" class="fab fa-instagram" aria-hidden="true"></a></li>
+                                <li><a target="_blank" class="fab fa-discord"></a></li>							
+							</ul>
+							<ul>
+							<marquee aligt="center" scrollamount="50" direction="right" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+							</ul>		
+						</nav>
+					</header>				
+			</div>
+		</div>
+	</body>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+function clock() {
+var d = new Date();
+var hours = d.getHours();
+var minutes = d.getMinutes();
+var seconds = d.getSeconds();
+
+
+if (hours <= 9) hours = "0" + hours;
+if (minutes <= 9) minutes = "0" + minutes;
+if (seconds <= 9) seconds = "0" + seconds;
+
+date_time = hours + ":" + minutes + ":" + seconds;
+if (document.layers) {
+ document.layers.doc_time.document.write(date_time);
+ document.layers.doc_time.document.close();
+}
+else document.getElementById("doc_time").innerHTML = date_time;
+ setTimeout("clock()", 1000);
+}
+</script>
+<script type="text/javascript">
+ clock();
+</script>
+<script id="volume">
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.03;
+</script>
+</html>
