@@ -18,14 +18,14 @@
 		
 	}
 
-	.Instagram{
+	Instagram{
     animation: header 1s 2.25s forwards;		
 	backface-visibility: hidden;		
 	transform: translate3d(0,0,0);
 	cursor: default;
 	display: inline-block;
 	opacity: 0;
-	position: all;
+	position: absolute;
 	text-align: center;
 	vertical-align: middle;
 	top: 57%;
@@ -34,7 +34,7 @@
     z-index: 21;
 }
 
-    .Steam{
+    Steam{
     animation: header 1s 2.25s forwards;		
 	backface-visibility: hidden;		
 	transform: translate3d(0,0,0);
@@ -50,14 +50,14 @@
     z-index: 21;
 	}
 
-	.VK{
+	VK{
     animation: header 1s 2.25s forwards;		
 	backface-visibility: hidden;		
 	transform: translate3d(0,0,0);
 	cursor: default;
 	display: inline-block;
 	opacity: 0;
-	position: fixed;
+	position: absolute;
 	text-align: center;
 	vertical-align: middle;
 	top: 57%;
@@ -66,14 +66,14 @@
     z-index: 21;
 	}
 
-	.Discord{
+	Discord{
 	animation: header 1s 2.25s forwards;		
 	backface-visibility: hidden;		
 	transform: translate3d(0,0,0);
 	cursor: default;
 	display: inline-block;
 	opacity: 0;
-	position: relative;
+	position: absolute;
 	text-align: center;
 	vertical-align: middle;
 	top: 57%;
