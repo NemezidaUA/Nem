@@ -99,6 +99,14 @@
 		vertical-align: middle;
 		width: 90%;		
 	}
+		#header button{
+			font-size: 35px;
+			color: white;
+			background-color: transparent;
+			background: transparent;
+			border-style: none;
+			outline: none;
+		}
 
 		#header h1 {
 			font-size: 4.35em;
