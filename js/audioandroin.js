@@ -1,0 +1,1 @@
+mWebView.getSettings().setMediaPlaybackRequiresUserGesture(false);

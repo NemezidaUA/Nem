@@ -7,7 +7,11 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<script src="https://kit.fontawesome.com/33edc189d1.js"></script>
-		<audio autoplay="autoplay" loop volume="0.03" id="myaudio" ><source src="audio/bgaudio1.mp3" type="audio/mp3"><source src="audio/bgaudio1.ogg" type="audio/ogg"></audio>
+		<audio autoplay="autoplay" loop volume="0.03" id="myaudio1" ><source src="audio/bgaudio1.opus" type="audio/opus"></audio>
+		<audio autoplay="autoplay" loop volume="0.03" id="myaudio2" ><source src="audio/bgaudio1.mp3" type="audio/mp3"></audio>
+		<audio autoplay="autoplay" loop volume="0.03" id="myaudio3" ><source src="audio/bgaudio1.ogg" type="audio/ogg"></audio>
+		<audio autoplay="autoplay" loop volume="0.03" id="myaudio4" ><source src="audio/bgaudio1.wav" type="audio/wav"></audio>
+
 	</head>
     
 	<body class="loading">	
@@ -81,7 +85,17 @@ else document.getElementById("doc_time").innerHTML = date_time;
  clock();
 </script>
 <script id="volume">
-  var audio = document.getElementById("myaudio");
+  var audio = document.getElementById("myaudio1");
+  audio.volume = 0.03;
+  <script id="volume">
+  var audio = document.getElementById("myaudio2");
+  audio.volume = 0.03;
+  <script id="volume">
+  var audio = document.getElementById("myaudio3");
+  audio.volume = 0.03;
+  <script id="volume">
+  var audio = document.getElementById("myaudio4");
   audio.volume = 0.03;
 </script>
+<script mWebView.getSettings().setMediaPlaybackRequiresUserGesture(false);>mWebView.getSettings().setMediaPlaybackRequiresUserGesture(false);</script>
 </html>
